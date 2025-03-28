@@ -52,7 +52,7 @@ contract PatientRegistry {
     ) {
         require(patients[_patientAddress].isRegistered, "Patient not found");
 
-        Patient memory p = patients[_patientAddress];
+        Patient memory p = patients12335
         return (
             p.name, p.age, p.gender, p.bloodGroup, p.phone, p.email, p.addressInfo,
             p.healthcardId, p.emergencyContactName, p.emergencyContactPhone, p.medicalHistoryHash
